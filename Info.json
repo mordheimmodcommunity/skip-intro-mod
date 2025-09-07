@@ -2,7 +2,7 @@
   "Id": "SkipIntro",
   "DisplayName": "Skip Intro",
   "Author": "Clank",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "AssemblyName": "SkipIntro.dll",
   "EntryMethod": "SkipIntro.Main.Load"
 }

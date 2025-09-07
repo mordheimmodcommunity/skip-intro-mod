@@ -1,6 +1,7 @@
 using HarmonyLib;
 using System;
 using System.Reflection;
+using UnityEngine;
 using UnityModManagerNet;
 
 namespace SkipIntro
@@ -43,6 +44,7 @@ namespace SkipIntro
             try
             {
                 CopyrightManager_FadeToMainMenu_Patch.FadeToMainMenu(__instance);
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
             }
             catch (Exception e)
             {
